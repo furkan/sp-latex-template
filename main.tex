@@ -1,0 +1,51 @@
+\documentclass[12pt]{report}
+
+% ============ Definitions for the title page ======================
+
+\newcommand{\reporttitle}{EE500 \newline SUMMER PRACTICE REPORT}
+\newcommand{\studentname}{Elon Musk}
+\newcommand{\studentid}{1234567}
+\newcommand{\companyname}{Tesla}
+\newcommand{\companydivision}{Electric Cars}
+\newcommand{\companylocation}{Mars}
+\newcommand{\spfield}{Biomedical}
+\newcommand{\spdate}{01.08.2030 - 01.09.2030}
+
+% ====== load some definitions, default packages and macros ========
+\input{includes}
+\input{notation}
+
+\date{August 2030} % Unused
+
+% ================== Change Chapter Headings =======================
+
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titlespacing*{\chapter}{0pt}{-40pt}{40pt}
+
+% ================== Beginning of the document =====================
+
+\begin{document}
+
+% ======================= Title Page ===============================
+\input{titlepage}
+
+% ======================= Page Numbering ===========================
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+% ====================== Table of Contents =========================
+\tableofcontents
+
+% ======================== Content =================================
+\input{content/introduction}
+\input{content/company}
+\input{content/conclusion}
+
+% ======================= Bibliography =============================
+\bibliographystyle{apa}
+
+\end{document}
