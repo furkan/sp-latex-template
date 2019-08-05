@@ -11,9 +11,13 @@ Enjoy... (Despise less)
 ## Short Tutorial
 
 [Adding Chapters](#adding-chapters)
+
 [Adding Sections](#adding-sections)
+
 [Adding Figures](#adding-figures)
+
 [Referencing Figures](#referencing-figures)
+
 [Citations](#citations)
 
 #### Adding Chapters
