@@ -53,31 +53,3 @@ Figure~\ref{fig:logo} is an example of a figure.
 #### Citations
 
 * Work in progress...
-
-[//]: # (
-* The home of referenced material will be `document/ref.bib`, where exist a lot of examples for various types of sources.
-
-* The following source:
-
-```
-@book{this-is-source-label,
-  author        = "H. E. Rose",
-  title         = "A Course in Number Theory",
-  publisher     = "Oxford Univ. Press",
-  location      = "New York",
-  year          = "1988",
-  chapter       = "3"
-}
-```
-
-is referenced in the document with `\cite{this-is-source-label}`.
-
-Result in the Bibliography:
-`
-[1]
-H. E. Rose,
-A Course in Number Theory
-. New York: Oxford Univ. Press, 1988,
-ch. 3.
-`
-)
