@@ -2,18 +2,11 @@
 
 % ============ Definitions for the title page ======================
 
-\newcommand{\reporttitle}{EE500 \newline SUMMER PRACTICE REPORT}
-\newcommand{\studentname}{Elon Musk}
-\newcommand{\studentid}{1234567}
-\newcommand{\companyname}{Tesla}
-\newcommand{\companydivision}{Electric Cars}
-\newcommand{\companylocation}{Mars}
-\newcommand{\spfield}{Biomedical}
-\newcommand{\spdate}{01.08.2030 - 01.09.2030}
+\input{document/title_def.tex}
 
 % ====== load some definitions, default packages and macros ========
-\input{includes}
-\input{notation}
+\input{config/includes.tex}
+\input{config/notation.tex}
 
 \date{August 2030} % Unused
 
@@ -31,7 +24,7 @@
 \begin{document}
 
 % ======================= Title Page ===============================
-\input{titlepage}
+\input{config/titlepage.tex}
 
 % ======================= Page Numbering ===========================
 \pagenumbering{arabic}
@@ -41,11 +34,9 @@
 \tableofcontents
 
 % ======================== Content =================================
-\input{content/introduction}
-\input{content/company}
-\input{content/conclusion}
+\input{document/content.tex}
 
 % ======================= Bibliography =============================
-\bibliographystyle{apa}
+\printbibliography[heading=bibintoc]
 
 \end{document}
