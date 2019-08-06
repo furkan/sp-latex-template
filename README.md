@@ -24,7 +24,7 @@ Enjoy... (Despise less)
 
 * To add a new chapter called `My Experience`, in the `documents/content` folder, create a new file called `myexperience.tex` (or whatever) and make its first line `\chapter{MY EXPERIENCE}`.
 
-* In the file `documents/content.tex`, add a line that calls this chapter: `\input{document/content/introduction.tex}`. (Note that the order of the lines in this file is important, as that is the same order with which they will show up on the document.)
+* In the file `documents/content.tex`, add a line that calls this chapter: `\input{document/content/myexperience.tex}`. (Note that the order of the lines in this file is important, as that is the same order with which they will show up on the document.)
 
 #### Adding Sections
 
