@@ -37,6 +37,9 @@
 \input{document/content.tex}
 
 % ======================= Bibliography =============================
-\printbibliography[heading=bibintoc]
+\renewcommand{\bibname}{REFERENCES} % Title of the bibliography page
+\bibliographystyle{ieeetr}
+\bibliography{document/ref.bib}
+\addcontentsline{toc}{chapter}{REFERENCES} % for the Table of Content
 
 \end{document}
