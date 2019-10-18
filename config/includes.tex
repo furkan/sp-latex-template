@@ -24,7 +24,13 @@
 \usepackage{fancyhdr} % page layout
 \usepackage{url} % URLs
 \usepackage[utf8]{inputenc}
+\usepackage{setspace}
 \usepackage[english]{babel}
+\addto\captionsenglish{
+  \renewcommand{\contentsname}%
+    {Table of Contents}%
+}
+\usepackage{indentfirst}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{dsfont}
